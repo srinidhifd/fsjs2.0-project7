@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Visual Studio Code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container">
+        <header><p class="font-mono text-center font-bold bg-yellow-200">For Educational Purpose Only</p></header>
+        <nav class="navbar bg-[#444444] text-slate-100 flex items-center justify-evenly p-1">
+            <div class="flex items-center justify-evenly">
+                <img src="./assests/logo.svg" alt="Visual Studio Code Logo" class="h-8">
+                  <span class="text-2xl mx-2">Visual Studio Code</span>
+                  <ul class="flex text-gray-400 justify-evenly items-center text-base mx-3">
+                    <li class="mx-4">Docs</li>
+                    <li class="mx-4">Updates</li>
+                    <li class="mx-4">Blog</li>
+                    <li class="mx-4">API</li>
+                    <li class="mx-4">Extensions</li>
+                    <li class="mx-4">FAQ</li>
+                    <li class="mx-4">Learn</li>
+                  </ul>
+            </div>
+            <div class="flex items-stretch">
+                <div class="flex relative">
+                    <img class="h-5 absolute top-4 left-5" src="./assests/search-icon.png" alt="search-icon">
+                <input class="bg-[#333333] text-center font-bold w-[200px] hover:bg-[rgba(255,255,255,.18)] cursor-text " type="search" name="search-docs" id="search-docs" placeholder="Search Docs">
+                </div>
+                <div class="flex relative">
+                    <span><img class="absolute top-3 left-3" src="./assests/download-icon.png" alt="download-icon"></span>
+                <input class="text-right bg-[#0066b8] p-3 w-[143px] font-bold" type="button" value="Download">
+                </div>
+            </div>
+            </nav>
+    </div>
+</body>
+</html>
