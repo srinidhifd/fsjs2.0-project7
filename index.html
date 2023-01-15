@@ -5,37 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Visual Studio Code</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="container">
-        <header><p class="font-mono text-center font-bold bg-yellow-200">For Educational Purpose Only</p></header>
-        <nav class="navbar bg-[#444444] text-slate-100 flex items-center justify-evenly p-1">
+        <header><p class="font-mono text-center font-bold bg-yellow-200 ">For Educational Purpose Only</p></header>
+        <nav class="navbar bg-[#2c2c32] text-slate-100 flex items-center justify-evenly p-1">
             <div class="flex items-center justify-evenly">
-                <img src="./assests/logo.svg" alt="Visual Studio Code Logo" class="h-8">
-                  <span class="text-2xl mx-2">Visual Studio Code</span>
-                  <ul class="flex text-gray-400 justify-evenly items-center text-base mx-3">
-                    <li class="mx-4">Docs</li>
-                    <li class="mx-4">Updates</li>
-                    <li class="mx-4">Blog</li>
-                    <li class="mx-4">API</li>
-                    <li class="mx-4">Extensions</li>
-                    <li class="mx-4">FAQ</li>
-                    <li class="mx-4">Learn</li>
+                <img src="./assests/logo.svg" alt="Visual Studio Code Logo" class="h-8 hover:cursor-pointer">
+                  <span class="text-2xl mx-2 hover:cursor-pointer ">Visual Studio Code</span>
+                  <ul class="flex text-gray-400 justify-evenly items-center text-base mx-3 hover:cursor-pointer ">
+                    <li class="mx-4 hover:text-white">Docs</li>
+                    <li class="mx-4 hover:text-white">Updates</li>
+                    <li class="mx-4 hover:text-white">Blog</li>
+                    <li class="mx-4 hover:text-white">API</li>
+                    <li class="mx-4 hover:text-white">Extensions</li>
+                    <li class="mx-4 hover:text-white">FAQ</li>
+                    <li class="mx-4 hover:text-white">Learn</li>
                   </ul>
             </div>
             <div class="flex items-stretch">
                 <div class="flex relative">
-                    <img class="h-5 absolute top-4 left-5" src="./assests/search-icon.png" alt="search-icon">
-                <input class="bg-[#333333] text-center font-bold w-[200px] hover:bg-[rgba(255,255,255,.18)] cursor-text " type="search" name="search-docs" id="search-docs" placeholder="Search Docs">
+                    <img class="h-5 absolute top-4 left-5 hover:cursor-pointer" src="./assests/search-icon.png" alt="search-icon">
+                <input class="bg-[rgba(255,255,255,.18)] text-center  w-[200px] placeholder:text-white hover:bg-[#6d6d6d] cursor-text " type="search" name="search-docs" id="search-docs" placeholder="Search Docs">
                 </div>
-                <div class="flex relative">
+                <div class="flex relative hover:cursor-pointer">
                     <span><img class="absolute top-3 left-3" src="./assests/download-icon.png" alt="download-icon"></span>
-                <input class="text-right bg-[#0066b8] p-3 w-[143px] font-bold" type="button" value="Download">
+                <input class="text-right bg-[#005BA4] p-3 w-[143px] font-bold hover:cursor-pointer" type="button" value="Download">
                 </div>
             </div>
-            </nav>
+        </nav>
+        <div class="bg-[#25252B] text-center py-3 text-[#cccccc]">
+            <p> <a class="text-[#125E95]" href="https://code.visualstudio.com/updates/v1_74">Version 1.74</a>  is now available! Read about the new features and fixes from November</p>
+        </div>
     </div>
 </body>
 </html>
